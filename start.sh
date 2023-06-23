@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # configs
-AUUID=1006432b-1438-4275-b49e-e080a534e521
+AUUID=e6b4abf4-b529-4179-8857-c29e30abd424
 CADDYIndexPage=https://github.com/technext/humanity/archive/refs/heads/master.zip
 CONFIGCADDY=https://raw.githubusercontent.com/thewislight/srallhandle/master/etc/Caddyfile
 CONFIGXRAY=https://raw.githubusercontent.com/thewislight/srallhandle/master/etc/xray.json
