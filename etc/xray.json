@@ -17,7 +17,7 @@
             "streamSettings": {"network": "ws","wsSettings": {"path": "/$AUUID-trojan"}}
         },
         {
-            "port": 4234,"listen": "127.0.0.1","tag": "onetag","protocol": "dokodemo-door",
+            "port": 4235,"listen": "127.0.0.1","tag": "onetag","protocol": "dokodemo-door",
             "settings": {"address": "v1.mux.cool","network": "tcp","followRedirect": false},
             "streamSettings": {"security": "none","network": "ws","wsSettings": {"path": "/$AUUID-ss"}}
         },
@@ -26,7 +26,7 @@
             "settings": {"method": "$ParameterSSENCYPT","password": "$AUUID"},
             "streamSettings": {"security": "none","network": "domainsocket","dsSettings": {"path": "apath","abstract": true}}
         },
-        {   "port": 5234,"listen": "127.0.0.1","protocol": "socks",
+        {   "port": 5235,"listen": "127.0.0.1","protocol": "socks",
             "settings": {"auth": "password","accounts": [{"user": "$AUUID","pass": "$AUUID"}]},
             "streamSettings": {"network": "ws","wsSettings": {"path": "/$AUUID-socks"}}
         }
